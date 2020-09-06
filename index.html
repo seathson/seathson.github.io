@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Прогнозы на спорт. Прогнозы на футбол и еще много других услуг. Прогнозы на сегодня."> 
+    <meta name="keywords" content="Прогнозы на спорт, спорт ставка, прогноз футбол"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>BestStavka</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+    <script type="text/javascript">
+      VK.init({apiId: 7582049, onlyWidgets: true});
+    </script>
+</head>
+<body>
+  <script src="https://use.fontawesome.com/710be3b14a.js"></script>
+  <div class="wrapper">
+    <div class="container">
+      <div class="header">
+        <div class="upTitle">
+          <div class="nameUpTitle">
+            <a href="#">BestStavka</a>
+          </div>
+          <div class="suppUpTitle">
+            <a target="_blank" href="https://tlgg.ru/seathson">Поддержка</a>
+          </div>
+          <div class="channelUpTitle">
+            <a target="_blank" href="https://tlgg.ru/bear_money">Канал</a>
+          </div>
+        </div>
+        <div class="headerTitle">
+          Про наc
+        </div>
+        <div class="headerDescription">
+          Мы - профессиональная команда аналитиков.</br>
+          За нашими плечами больше 5 лет опыта работы со ставками.</br>
+          Мы просчитываем все возможные исходы события и даем уверенные прогнозы.</br>
+        </div>
+        <div class="headerImg">
+          <div class="blocks">
+            <div class="firstBlock">
+              <div class="firstContent">
+                <span class="fa fa-address-card"></span>
+                <div class="textContentTitle">
+                  Наша служба поддержки онлайн 24/7
+                </div>
+                <div class="textContentDown">
+                  Мы свяжемся с вами и начнем работу над вашим заказом в течении 7 минут
+                </div>
+                <a target="_blank" href="https://tlgg.ru/seathson" class="tele"><span class="fa fa-telegram"></span></a>
+              </div>
+            </div>
+            <div class="secondBlock">
+              <div class="secondContent">
+                <span class="fa fa-users"></span>
+                <div class="textContentTitle">
+                  Профессиональные аналитики
+                </div>
+                <div class="textContentDown">
+                  Ваш заказ будет составлять команда аналитиков, учитывая каждый аспект
+                </div>
+              </div>
+            </div>
+            <div class="threeBlock">
+              <div class="threeContent">
+                <span class="fa fa-percent"></span>
+                <div class="textContentTitle">
+                  Высокий процент прохода
+                </div>
+                <div class="textContentDown">
+                  Общий процент всех выигранных ставок составляет более 85%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="content">
+        <div class="contentTitle">
+          Наши услуги
+        </div>
+        <div class="services">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="choiceCoeff" id="choiceCoeffOne">
+                  <div class="textCoeff">Коэф: </div>
+                  <div class="numb">
+                    <div class="coeff check">7</div>
+                    <div class="coeff">9</div>
+                    <div class="coeff">12</div>
+                    <div class="coeff">15</div>
+                    </div>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                  <h2 class="slider__caption">экспресс</h2>
+                  <p class="slider__txt">Экспресс с выбранным коэффициентом. Составляется из событий по линии. Количество событий может варьироваться.</p>
+                </div>
+                <div class="buyButton">
+                  <a target="_blank" href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=BestStavka&InvId=0&Culture=ru&Encoding=utf-8&Description=%D0%AD%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81%20%5B7%5D&OutSum=1000&SignatureValue=5cf1f8fd7a4dea210c924cf8bce0d86d" class="gl-cta">
+                    Купить
+                    <span class="fa fa-caret-right"></span>
+                    <span class="price" id='priceOne'>1000р</span>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="choiceCoeff" id="choiceCoeffTwo">
+                  <div class="textCoeff">Срок: </div>
+                  <div class="numb">
+                    <div class="coeff check">1 мес.</div>
+                    <div class="coeff">3 мес.</div>
+                    <div class="coeff">Навсегда</div>
+                  </div>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                  <h2 class="slider__caption">VIP-канал</h2>
+                  <p class="slider__txt">Вы получаете доступ к VIP-каналу в Telegram (на выбранный период). Туда аналитики каждый день выкладывают прогнозы с высокими коэффициентами.</p>
+                </div>
+                <div class="buyButton">
+                  <a target="_blank" href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=BestStavka&InvId=0&Culture=ru&Encoding=utf-8&Description=VIP-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%20(%D0%BC%D0%B5%D1%81%D1%8F%D1%86)&OutSum=1500&SignatureValue=21b4855546591a7bd5c622e8a0a6d849" class="gl-cta">
+                    Купить
+                    <span class="fa fa-caret-right"></span>
+                    <span class="price" id="priceTwo">1500р</span>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="choiceCoeff" id="choiceCoeffThree">
+                  <div class="textCoeff">До: </div>
+                  <div class="numb">
+                    <div class="coeff check">5 000р</div>
+                    <div class="coeff">7 000р</div>
+                    <div class="coeff">15 000р</div>
+                  </div>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-line-chart"></i>
+                  <h2 class="slider__caption">Лесенка</h2>
+                  <p class="slider__txt">Начиная с 500р, пытаемся дойти до выбранной суммы. Прогнозы будут отправляться поочередно.</p>
+                </div>
+                <div class="buyButton">
+                  <a target="_blank" href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=BestStavka&InvId=0&Culture=ru&Encoding=utf-8&Description=%D0%9B%D0%B5%D1%81%D0%B5%D0%BD%D0%BA%D0%B0%20(%D0%B4%D0%BE%205%20000%D1%80)&OutSum=1000&SignatureValue=5cf1f8fd7a4dea210c924cf8bce0d86d" class="gl-cta">
+                    Купить
+                    <span class="fa fa-caret-right"></span>
+                    <span class="price" id="priceThree">1000р</span>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="choiceCoeff" id="choiceCoeffFour">
+                  <div class="textCoeff">Коэф: </div>
+                  <div class="numb">
+                    <div class="coeff check">9</div>
+                    <div class="coeff">12</div>
+                    <div class="coeff">16</div>
+                  </div>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-bolt"></i>
+                  <h2 class="slider__caption">Точный счет</h2>
+                  <p class="slider__txt">Выдается прогноз на ставку (точный счет). Вы получите прогноз на ближайшую игру, которая есть в наличии.</p>
+                </div>
+                <div class="buyButton">
+                  <a target="_blank" href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=BestStavka&InvId=0&Culture=ru&Encoding=utf-8&Description=%D0%A2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D1%87%D0%B5%D1%82%20%5B9%5D&OutSum=1200&SignatureValue=cd438ed4ca3f94feb3f7b6cd9d8528fd" class="gl-cta">
+                    Купить
+                    <span class="fa fa-caret-right"></span>
+                    <span class="price" id="priceFour">1200р</span>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="choiceCoeff" id="choiceCoeffFive">
+                  <div class="textCoeff">Срок: </div>
+                  <div class="numb">
+                    <div class="coeff check">1 нед.</div>
+                    <div class="coeff">1 мес.</div>
+                    <div class="coeff">Навсегда</div>
+                  </div>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-android"></i>
+                  <h2 class="slider__caption">бот</h2>
+                  <p class="slider__txt">Вам предоставляется доступ к БОТУ (искуственный интелект). Каждый день он будет выдавать уверенные прогнозы с коэффициентом 3+. Его статистика ≈ 90%.</p>
+                </div>
+                <div class="buyButton">
+                  <a target="_blank" href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=BestStavka&InvId=0&Culture=ru&Encoding=utf-8&Description=%D0%91%D0%BE%D1%82%20(1%20%D0%BD%D0%B5%D0%B4.)&OutSum=900&SignatureValue=63ec91c43c1eea7cefe4a6e0ccea03d7" class="gl-cta">
+                    Купить
+                    <span class="fa fa-caret-right"></span>
+                    <span class="price" id="priceFive">900р</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper -->
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <hr>
+        <div class="questionsWrap" id="questions">
+          <div class="titleQuestions">
+            Часто задаваемые вопросы
+          </div>
+          <div class="question">
+            <div class="queText">
+              <i class="fa fa-caret-down"></i>
+              Почему мы?
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="ansText">
+              Наша команда уже многие годы составляет для вас лучшую аналитику.</br>
+              У нас большой спектр различных услуг по отличной цене.</br>
+              Одна из самых надежных гарантий на рынке.
+            </div>
+          </div>
+          <div class="question">
+            <div class="queText">
+              <i class="fa fa-caret-down"></i>
+              Где ставить?
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="ansText">
+              Вы можете ставить где угодно, мы не сотрудничаем ни с одной букмекерской конторой.</br>
+              Мы работаем на клиента, а не на букмекеров.
+            </div>
+          </div>
+          <div class="question">
+            <div class="queText">
+              <i class="fa fa-caret-down"></i>
+              Если проигрышь?
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="ansText">
+              Да, такое тоже бывает, но очень редко.</br>
+              В таком случае мы заменим вами купленную услугу на точно такую-же.</br>
+              Все возможные случаи рассматривает и принимает решения только поддержка.
+            </div>
+          </div>
+        </div>
+        <hr class="hrFooter">
+      </div>
+      <div class="footer" id="footer">
+        <div class="contentFooter">
+          <div class="nametag">
+            Created by&nbsp
+            <a target="_blank" href="https://vk.com/seathson"> seathson</a>
+          </div>
+          <div class="cont">
+            <div class="oneHalf">
+              <div class="home">
+                E-mail
+              </div>
+              <div class="aboutUs">
+                О нас
+              </div>
+            </div>
+            <div class="twoHalf">
+              <div class="number">
+                Телефон
+              </div>
+              <div class="help">
+                <a target="_blank" href="https://tlgg.ru/seathson">Помощь</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vkcom">
+      <div id="vk_comments"></div>
+      <script type="text/javascript">
+        VK.Widgets.Comments("vk_comments", {limit: 10, attach: false});
+      </script>
+    </div>
+  </div>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(66427285, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/66427285" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
